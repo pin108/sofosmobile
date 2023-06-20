@@ -14,7 +14,7 @@ const ItemProduct = ({data}) => {
         style={styles.img}
       />
       <View style={styles.wpText}>
-        <Text style={styles.title}>{data?.namaproduct}</Text>
+        <Text style={styles.title}>{data?.nama}</Text>
         <Text style={styles.desc}>{truncateString(dataDesc, 100)}</Text>
         <Button
           title="Detail"
